@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=tel], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+.bg-img {
+
+  background-image: url("dog-2606759.jpg");
+
+  min-height: 480px;
+
+  background-position: center;
+  background-size: cover;  
+}
+
+
+</style>
+</head>
+
+<body>
+<center>
+
+<h1><i>THE PET'S PATCH</i></h1>
+<h2> <i>SIGN UP </i></h2>
+<div class="bg-img">
+
+
+   
+    <input type="Text" placeholder="Enter Name" name="FNAME" required><br>
+    
+    
+    <input type="Text" placeholder="Enter location" name="Loc" required><br>
+    
+     
+    <input type="Tel" placeholder="Enter Phone Number" name="ph_no" required><br>
+  
+   
+    <input type="email" placeholder="Enter Email id" name="email" required><br>
+
+   
+    <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</center>
+
+</body>
+</html>
